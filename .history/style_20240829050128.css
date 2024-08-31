@@ -1,0 +1,123 @@
+body{
+   background-color: black;
+    
+}
+Header{
+    background-color: #9a9aa0;
+    background-image: linear-gradient(43deg, #3f3f4d 0%, #1a191a 46%, #5a5252 100%);
+     color:aliceblue;
+    width: 1620px;
+    height: 35px;
+    padding-top: 15px;
+    margin: 0, 0 0 0;
+    text-align: center;
+    font-size: large;
+    font-weight: normal; 
+    word-spacing: 250px;  
+}  
+#Profile{
+    width: 180px;
+height: 180px;
+border-radius: 50%;
+margin-top: 40px;
+margin-left: 738px;
+}
+h1{
+    color:  white;
+    font-family: 'Franklin Gothic Medium'; 
+    text-align: center;  
+    margin-top: 40px;
+}
+p{
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+     
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 40px 10px;
+   font-size: normal;
+   font-weight: normal;
+   background: linear-gradient(#e2d8d5, #ebb38e); /* New gradient on hover */
+  }
+  
+
+
+h4{
+    color:#9a9aa0;
+    text-align: center;
+    font-size: large;
+    font-weight: normal; 
+}
+
+.log {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center;     /* Centers the items vertically */
+    
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px 8px;
+}
+#pro{
+text-align: center;
+color: #eca012 ;
+font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    background: linear-gradient( orange, gold ); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+  }
+
+  
+#exp{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient( rgb(0, 47, 255),#0093E9  ); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+     font-family: 'Franklin Gothic Medium';   
+}
+.hjs {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin: 0 8px;
+}
+
+h3{
+    text-align: center;
+    color:aliceblue;
+}
+p{
+    text-align: center;
+    color:aliceblue;
+}
+
+footer{
+    height: 150px;
+    background-color: #9a9aa0;
+    background-image: linear-gradient(43deg, #3f3f4d 0%, #1a191a 46%, #5a5252 100%);
+     color:aliceblue;
+}

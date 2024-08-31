@@ -1,0 +1,156 @@
+body{  
+    background-image: linear-gradient(43deg, #04041b 25%, #000000 46%, #04041b 100%);
+}
+@media (max-width: 768px){
+.head {
+    display: flex;
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+}
+}
+
+Header {
+    background-color: #9a9aa0;
+    background-image: linear-gradient( #0f0c29, #302b63,  #24243e);
+    height: 30px;
+   padding-top: 10px;
+    text-align: center;
+    word-spacing: 250px;  
+   
+} 
+.anchor{
+    color: white;
+    font-size: large;
+    
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;       /* Centers  vertically */
+}
+#Profile{
+    width: 180px;
+height: 180px;
+border-radius: 50%;
+margin-top: 40px;
+
+}
+h1{
+    color:whitesmoke;
+    text-align: center;  
+    margin-top: 40px;
+}
+#ab-it{
+    font-size: 30px;
+    background: linear-gradient(#00dbde,#fc00ff); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */ 
+}
+p{
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+     
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 40px 10px;
+   font-size: normal;
+   font-weight: normal;
+   color: whitesmoke;
+   background: linear-gradient( #0f2027, #203a43, #2c5364); /* New gradient on hover */
+  }
+  
+
+
+h4{
+    color:#9a9aa0;
+    text-align: center;
+    font-size: large;
+    font-weight: normal; 
+}
+
+.log {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center;     /* Centers the items vertically */
+    
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px 8px;
+}
+#pro{
+text-align: center;
+color: #eca012 ;
+font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    background: linear-gradient( orange, gold ); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+  }
+
+  
+#exp{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient( rgb(0, 47, 255),#0093E9  ); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+     font-family: 'Franklin Gothic Medium';   
+}
+.hjs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers  horizontally */
+    align-items: center; /* Centers  vertically */
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 40px 30px;
+    border:4px  #01016b;
+}
+
+h3{
+    text-align: center;
+    color:aliceblue;
+}
+p{
+    text-align: center;
+    color:aliceblue;
+}
+.gam{
+    height: 30px;
+}
+
+footer{
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    height: 200px;
+   color: lavender;
+    background-image: linear-gradient(#0f0c29, #1e195a, #04041b 100%);
+   
+}
+.icon{
+    height: 30px;
+    margin: 0 10px;
+    
+}
