@@ -1,0 +1,463 @@
+body{  
+    background-image: linear-gradient(43deg, #04041b 25%, #000000 46%, #04041b 100%);
+}
+@media (max-width: 768px){
+
+header {
+   max-width: 768px;
+    background-color: #9a9aa0;
+    background-image: linear-gradient( #0f0c29, #302b63,  #24243e);
+    height: 30px;
+   padding-top: 10px;
+    text-align: center;
+    word-spacing: 120px !important;  
+   
+}
+}
+header {
+    display: flex;
+    justify-content: center;         /* Centers horizontally */
+    align-items: center; 
+    background-color: #9a9aa0;
+    background-image: linear-gradient( #0f0c29, #302b63,  #24243e);
+    height: 30px;
+   padding-top: 10px;
+    text-align: center;
+    word-spacing: 250px;  
+   
+}
+
+
+.anchor{
+    color: white;
+    font-size: large;
+    
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;       /* Centers  vertically */
+}
+#Profile{
+    width: 180px;
+height: 180px;
+border-radius: 50%;
+margin-top: 40px;
+
+}
+h1{
+    color:whitesmoke;
+    text-align: center;  
+    margin-top: 40px;
+}
+#ab-it{
+    font-size: 30px;
+    background: linear-gradient(43deg, #3622b6 0%, #f10551 46%, #f1f102 100%);  /* The gradient color */
+    -webkit-background-clip: text;       /* Clip the background to the text */
+    background-clip: text;              /* For non-WebKit browsers */
+    color: transparent;                 /* Make the text color transparent */ 
+}
+p{
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+     
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 40px 10px;
+   font-size: normal;
+   font-weight: normal;
+   color: whitesmoke;
+   background: linear-gradient( #0f2027, #203a43, #2c5364); /* New gradient on hover */
+  }
+  
+
+
+h4{
+    color:#9a9aa0;
+    text-align: center;
+    font-size: large;
+    font-weight: normal; 
+}
+
+.log {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center;     /* Centers the items vertically */
+    
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 20px 8px;
+}
+#pro{
+text-align: center;
+color: #eca012 ;
+font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    background: linear-gradient( orange, gold ); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+  }
+
+  
+#exp{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient( rgb(0, 47, 255),#0093E9  ); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+     font-family: 'Franklin Gothic Medium';   
+}
+.hjs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers  horizontally */
+    align-items: center; /* Centers  vertically */
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 40px 30px;
+    border:4px  #01016b;
+}
+
+h3{
+    text-align: center;
+    color:aliceblue;
+}
+p{
+    text-align: center;
+    color:aliceblue;
+}
+.gam{
+    height: 30px;
+}
+
+footer{
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    height: 200px;
+    color: lavender;
+    background-image: linear-gradient(#0f0c29, #1e195a, #04041b 100%);
+   
+}
+.icon{
+    height: 35px;
+    margin: 0 10px;
+    
+}
+/* From Uiverse.io by vinodjangid07 */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);/* From Uiverse.io by vinodjangid07 */ 
+      .card {
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(238, 238, 238);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 25px;
+        gap: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+      }
+      
+      /* for all social containers*/
+      .socialContainer {
+        width: 52px;
+        height: 52px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition-duration: .3s;
+      }
+      /* instagram*/
+      .containerOne:hover {
+        background-color: #d62976;
+        transition-duration: .3s;
+      }
+      /* twitter*/
+      .containerTwo:hover {
+        background-color: #00acee;
+        transition-duration: .3s;
+      }
+      /* linkdin*/
+      .containerThree:hover {
+        background-color: #0072b1;
+        transition-duration: .3s;
+      }
+      /* Whatsapp*/
+      .containerFour:hover {
+        background-color: #128C7E;
+        transition-duration: .3s;
+      }
+      
+      .socialContainer:active {
+        transform: scale(0.9);
+        transition-duration: .3s;
+      }
+      
+      .socialSvg {
+        width: 17px;
+      }
+      
+      .socialSvg path {
+        fill: rgb(255, 255, 255);
+      }
+      
+      .socialContainer:hover .socialSvg {
+        animation: slide-in-top 0.3s both;
+      }
+      
+      @keyframes slide-in-top {
+        0% {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+      
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+/* From Uiverse.io by vinodjangid07 */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+/* From Uiverse.io by vinodjangid07 */ 
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+        
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  

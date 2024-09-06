@@ -1,7 +1,5 @@
 body{  
     background-image: linear-gradient(43deg, #04041b 25%, #000000 46%, #04041b 100%);
-    margin:0px;
-    padding: 0px;
 }
 @media (max-width: 768px){
 
@@ -32,12 +30,8 @@ header {
 
 .anchor{
     color: white;
-    font-size: medium;
+    font-size: large;
     
-}
-.anchor:hover{
-    background-image: linear-gradient(#0f0c29, #8f08e9,  #044ff1 ) ;
-    font-size: larger;
 }
 
 .avatar {
@@ -86,8 +80,8 @@ button{
    background: linear-gradient( #0f2027, #203a43, #2c5364); /* New gradient on hover */
   }
   button:hover {
-    background-image: linear-gradient(#0f0c29, #302b63,  #24243e );
-    box-shadow: #302b63 0px 4px 0px 0px;
+    background-image: linear-gradient(rgb(53, 3, 77),#3e00e9);
+    box-shadow: #3e00e9 0px 2px 0px 0px;
   }
 
 
@@ -111,9 +105,8 @@ h4{
     border-radius: 5px;
     margin: 20px 8px;
 }
- .logo:hover{
-    background-image: linear-gradient(#0f0c29, #302b63,  #24243e ) ;
-    
+ logo : lover{
+
 }
 #pro{
 text-align: center;
@@ -148,10 +141,7 @@ font-family: 'Franklin Gothic Medium';
     height: 150px;
     border-radius: 5px;
     margin: 40px 30px;
-    border:1px solid rgb(13, 3, 104);
-}
-.photo:hover{
-    border:4px solid whitesmoke;
+    border:4px  #01016b;
 }
 
 h3{

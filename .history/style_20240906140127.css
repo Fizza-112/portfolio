@@ -32,12 +32,12 @@ header {
 
 .anchor{
     color: white;
-    font-size: medium;
+    font-size: large;
     
 }
 .anchor:hover{
     background-image: linear-gradient(#0f0c29, #8f08e9,  #044ff1 ) ;
-    font-size: larger;
+    font-size: large;
 }
 
 .avatar {
