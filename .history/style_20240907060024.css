@@ -44,20 +44,19 @@ header {
     display: flex;
     justify-content: center;    /* Centers horizontally */
     align-items: center;       /* Centers  vertically */
-    
+    transition: all;
 }
 
+.avatar:hover{
+    
+    transform: value(0);
+}
 #Profile{
     width: 180px;
 height: 180px;
 border-radius: 50%;
 margin-top: 40px;
-transition: all ;
-border: 2px solid rgb(0, 225, 255);
-}
-#Profile:hover{
-    border:4px solid rgb(0, 255, 179);
-   
+
 }
 h1{
     color:whitesmoke;
@@ -76,9 +75,7 @@ h3{
     text-align: center;
     margin-top: 40px;
 }
-#Name{
-    color: #07eafa;
-}
+Name
 .button-container {
     display: flex;
     justify-content: center; /* Centers the button horizontally */
@@ -102,7 +99,7 @@ button{
 
 
 h4{
-    color:grey;
+    color:#9a9aa0;
     text-align: center;
     font-size: large;
     font-weight: normal; 
@@ -189,7 +186,4 @@ footer{
     height: 35px;
     margin: 0 10px;
     
-}
-.icon:hover{
-    background-image: linear-gradient( #0f2027, #203a43, #2c5364) ;
 }

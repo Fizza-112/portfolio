@@ -1,5 +1,6 @@
 body{  
-    background-image: linear-gradient(43deg, #04041b 25%, #000000 46%, #04041b 100%);
+    background-image: linear-gradient( #0f0c29, #05f0f0,  #24243e);
+  
     margin:0px;
     padding: 0px;
 }
@@ -8,7 +9,7 @@ body{
 header {
    max-width: 768px;
     background-color: #9a9aa0;
-    background-image: linear-gradient( #0f0c29, #302b63,  #24243e);
+    background-image: linear-gradient( #0f0c29, #2b635b,  #24243e);
     height: 50px;
    padding-top: 10px;
     text-align: center;
@@ -21,7 +22,7 @@ header {
     justify-content: center;         /* Centers horizontally */
     align-items: center; 
     background-color: #9a9aa0;
-    background-image: linear-gradient( #0f0c29, #302b63,  #24243e);
+    background-image: linear-gradient( #0f0c29, #05f0f0,  #24243e);
     height: 35px;
    padding-top: 10px;
     text-align: center;
@@ -60,7 +61,7 @@ border: 2px solid rgb(0, 225, 255);
    
 }
 h1{
-    color:whitesmoke;
+    color:;
     text-align: center;  
     margin-top: 40px;
 }
@@ -72,7 +73,7 @@ h1{
     color: transparent;                 /* Make the text color transparent */ 
 }
 h3{
-    color:white;
+    color:bl;
     text-align: center;
     margin-top: 40px;
 }
@@ -189,7 +190,4 @@ footer{
     height: 35px;
     margin: 0 10px;
     
-}
-.icon:hover{
-    background-image: linear-gradient( #0f2027, #203a43, #2c5364) ;
 }

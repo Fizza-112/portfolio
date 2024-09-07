@@ -22,7 +22,7 @@ header {
     align-items: center; 
     background-color: #9a9aa0;
     background-image: linear-gradient( #0f0c29, #302b63,  #24243e);
-    height: 35px;
+    height: 50px;
    padding-top: 10px;
     text-align: center;
     word-spacing: 250px;  
@@ -36,7 +36,7 @@ header {
     
 }
 .anchor:hover{
-    background-image: linear-gradient(#0f0c29, #2f1c3b,  #0f1452 ) ;
+    background-image: linear-gradient(#0f0c29, #8f08e9,  #044ff1 ) ;
     font-size: larger;
 }
 
@@ -44,20 +44,13 @@ header {
     display: flex;
     justify-content: center;    /* Centers horizontally */
     align-items: center;       /* Centers  vertically */
-    
 }
-
 #Profile{
     width: 180px;
 height: 180px;
 border-radius: 50%;
 margin-top: 40px;
-transition: all ;
-border: 2px solid rgb(0, 225, 255);
-}
-#Profile:hover{
-    border:4px solid rgb(0, 255, 179);
-   
+
 }
 h1{
     color:whitesmoke;
@@ -71,13 +64,10 @@ h1{
     background-clip: text;              /* For non-WebKit browsers */
     color: transparent;                 /* Make the text color transparent */ 
 }
-h3{
+p{
     color:white;
     text-align: center;
     margin-top: 40px;
-}
-#Name{
-    color: #07eafa;
 }
 .button-container {
     display: flex;
@@ -102,7 +92,7 @@ button{
 
 
 h4{
-    color:grey;
+    color:#9a9aa0;
     text-align: center;
     font-size: large;
     font-weight: normal; 
@@ -122,7 +112,7 @@ h4{
     margin: 20px 8px;
 }
  .logo:hover{
-    background-image: linear-gradient( #0f2027, #203a43, #2c5364) ;
+    background-image: linear-gradient(#0f0c29, #302b63,  #24243e ) ;
     
 }
 #pro{
@@ -189,7 +179,4 @@ footer{
     height: 35px;
     margin: 0 10px;
     
-}
-.icon:hover{
-    background-image: linear-gradient( #0f2027, #203a43, #2c5364) ;
 }

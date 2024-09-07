@@ -1,5 +1,5 @@
 body{  
-    background-image: linear-gradient(43deg, #04041b 25%, #000000 46%, #04041b 100%);
+    background-image: linear-gradient(43deg, #07079e 25%, #05f5f5 46%, #07079e 100%);
     margin:0px;
     padding: 0px;
 }
@@ -189,7 +189,4 @@ footer{
     height: 35px;
     margin: 0 10px;
     
-}
-.icon:hover{
-    background-image: linear-gradient( #0f2027, #203a43, #2c5364) ;
 }

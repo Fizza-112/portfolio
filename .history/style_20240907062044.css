@@ -102,7 +102,7 @@ button{
 
 
 h4{
-    color:grey;
+    color:#8f8d85;
     text-align: center;
     font-size: large;
     font-weight: normal; 
@@ -189,7 +189,4 @@ footer{
     height: 35px;
     margin: 0 10px;
     
-}
-.icon:hover{
-    background-image: linear-gradient( #0f2027, #203a43, #2c5364) ;
 }
